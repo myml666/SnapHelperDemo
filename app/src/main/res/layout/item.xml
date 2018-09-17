@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="5dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+    android:layout_width="300dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_weight="7"
+            android:scaleType="fitXY"
+            android:id="@+id/img"
+            android:background="@mipmap/a1"
+            android:layout_height="0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/tv"
+            android:padding="5dp"
+            android:text="我已经厌倦了嫌恶别人、憎恨别人的生活，厌倦了无法爱任何人的生活。我连一个朋友也没有，哪怕是一个。最重要的是，我甚至连自己都爱不起来。"
+            android:layout_height="0dp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
